@@ -106,7 +106,7 @@ The source data also contained zero-date datetime values. These values caused pr
 
 
 
-For anyone reproducing the project, the exact settings and steps may differ by MySQL version and client configuration. Enable local file loading only in an environment where you are permitted to do so, and review the import statements and date-cleaning steps in `sql/Olist_Setup.sql` before running the script.
+For anyone reproducing the project, the exact settings and steps may differ by MySQL version and client configuration. Enable local file loading only in an environment where you are permitted to do so, and review the import statements and date-cleaning steps in `SQL/Olist_Setup.sql` before running the script.
 
 
 
@@ -176,7 +176,7 @@ The Power BI dashboard is presented here through screenshots because the PBIX fi
 
 
 
-![Power BI dashboard overview](screenshots/dashboard_overview.png)
+![Power BI dashboard overview](ScreenShots/dashboard_overview.png)
 
 
 
@@ -184,7 +184,7 @@ The Power BI dashboard is presented here through screenshots because the PBIX fi
 
 
 
-![Power BI dashboard filtered to 2017 and MT](screenshots/dashboard_filtered_2017_MT.png)
+![Power BI dashboard filtered to 2017 and MT](ScreenShots/dashboard_filtered_2017_MT.png)
 
 
 
@@ -280,9 +280,9 @@ The unusually low recorded sales value is consistent with the limited number of 
 
 Investigated the sharp decline in recorded sales to BRL 145 in September 2018. The analysis found 16 orders: 15 cancelled and 1 shipped. The cancelled orders had no matching records in the `order_items` table.
 
-![September 2018 Sales Investigation](screenshots/september_2018_sales_investigation.png)
+![September 2018 Sales Investigation](ScreenShots/september_2018_sales_investigation.png)
 
-See [`investigation/September_2018_Sales_Investigation.md`](investigation/September_2018_Sales_Investigation.md) for the separate investigation note.
+See [`ScreenShots/September_2018_Sales_Investigation.md`](ScreenShots/September_2018_Sales_Investigation.md) for the separate investigation note.
 
 
 
@@ -292,11 +292,11 @@ See [`investigation/September_2018_Sales_Investigation.md`](investigation/Septem
 
 1. Download the Olist dataset CSV files from the [Kaggle dataset page](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce).
 
-2. Open `sql/Olist_Setup.sql` and update the file paths in the data-loading statements to match the location of the downloaded CSV files.
+2. Open `SQL/Olist_Setup.sql` and update the file paths in the data-loading statements to match the location of the downloaded CSV files.
 
 3. Run the setup script in a MySQL environment configured to allow local file loading, where permitted by your environment.
 
-4. Run `sql/Olist_Queries.sql` to explore the questions and results.
+4. Run `SQL/Olist_Queries.sql` to explore the questions and results.
 
 5. Preview the dashboard using the screenshots below. The PBIX file is not included in this repository.
 
