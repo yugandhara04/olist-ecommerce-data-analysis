@@ -282,7 +282,7 @@ Investigated the sharp decline in recorded sales to BRL 145 in September 2018. T
 
 ![September 2018 Sales Investigation](ScreenShots/september_2018_sales_investigation.png)
 
-See [`ScreenShots/September_2018_Sales_Investigation.md`](ScreenShots/September_2018_Sales_Investigation.md) for the separate investigation note.
+See [`Investigation/September_2018_Sales_Investigation.md`](Investigation/September_2018_Sales_Investigation.md) for the separate investigation note.
 
 
 
