@@ -134,7 +134,7 @@ The query file demonstrates the use of SQL joins, aggregations, conditional logi
 
 
 
-See [`sql/Olist_Setup.sql`](sql/Olist_Setup.sql) for database and table setup, and [`sql/Olist_Queries.sql`](sql/Olist_Queries.sql) for the analysis queries.
+See [`SQL/Olist_Queries.sql`](SQL/Olist_Queries.sql) for database and table setup, and [`SQL/Olist_Queries.sql`](SQL/Olist_Queries.sql) for the analysis queries.
 
 
 
