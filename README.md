@@ -68,7 +68,7 @@ olist-ecommerce-data-analysis/
 
 ├── README.md
 
-├── sql/
+├── SQL/
 
 │   ├── Olist_Setup.sql
 
@@ -76,15 +76,17 @@ olist-ecommerce-data-analysis/
 
 
 
-├── investigation/
+├── Investigation/
 
 │   └── September_2018_Sales_Investigation.md
 
-└── screenshots/
+└── ScreenShots/
 
     ├── dashboard_overview.png
 
     └── dashboard_filtered_2017_MT.png
+
+    └── september_2018_sales_investigation.png
 
 ```
 
